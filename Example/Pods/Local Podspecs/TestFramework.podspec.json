@@ -1,0 +1,22 @@
+{
+  "name": "TestFramework",
+  "version": "0.1.0",
+  "summary": "A short description of TestFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TThinhLe/TestFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TThinhLe": "thinht.le@spiraledge.com"
+  },
+  "source": {
+    "git": "https://github.com/TThinhLe/TestFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TestFramework/Classes/**/*"
+}
