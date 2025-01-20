@@ -14,7 +14,7 @@ public class Version {
     public func sayHello() -> String {
         let podfileLockPath = Bundle.main.path(forResource: "Podfile", ofType: "lock") ?? ""
         guard let content = try? String(contentsOfFile: podfileLockPath, encoding: .utf8) else {
-            return
+            return ""
         }
         
         let lines = content.components(separatedBy: "\n")
