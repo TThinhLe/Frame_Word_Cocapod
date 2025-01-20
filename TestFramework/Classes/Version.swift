@@ -11,7 +11,12 @@ import Foundation
 public class Version {
     public init() {}
 
-    public func sayHello() -> String {
-       return "0.6.0"
+    import Foundation
+
+    public class Version {
+        public static var frameworkVersion: String {
+            let bundle = Bundle(for: Version.self)
+            return bundle.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "Unknown"
+        }
     }
 }

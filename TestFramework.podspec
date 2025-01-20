@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TestFramework'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'A simple test framework'
   s.description      = <<-DESC
   This is a simple CocoaPods framework for testing.
@@ -12,4 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.source_files = 'TestFramework/Classes/**/*'
   s.swift_versions = ['5.0']  # Xóa `swift_version`, chỉ dùng `swift_versions`
+  s.info_plist = {
+      'CFBundleShortVersionString' => s.version.to_s
+    }
 end
