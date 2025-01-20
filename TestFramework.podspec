@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TestFramework'
-  s.version          = '0.8.0'
+  s.version          = '0.9.0'
   s.summary          = 'A simple test framework'
   s.description      = <<-DESC
   This is a simple CocoaPods framework for testing.
